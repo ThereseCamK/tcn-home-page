@@ -32,7 +32,6 @@
   position: flex;
   background: rgba(255, 255, 255, 0.034); 
   backdrop-filter: blur(5px); 
-  
   padding: 0;
   height: 30vh;
   font-family: Arial, sans-serif;
@@ -80,6 +79,15 @@
 .nav li:hover {
   background: rgba(107, 7, 221, 0.034); 
   backdrop-filter: blur(5px); 
+
+}
+.infoContent{
+
+  display: flex;
+  flex-direction: column;
+ 
+  padding: 5%;
+
 }
 
 
